@@ -1,25 +1,27 @@
 import {
-  c,
+  Salesforce,
+  Soti,
+  SQL,
+  PowerBi,
+  dotnet,
   python,
-  java,
-  cpp,
   javascript,
   html,
   css,
   reactjs,
-  tailwind,
   nodejs,
   git,
-  edunet,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  threejs,
-  mhft,
-  sketcher,
-  mathwork,
-  CompileVortex,
-  eduskill,
+  ETL,
+  CSharp,
+  SAAS,
+  Snowflake,
+  R,
+  Tableau,
+  CreditCard,
+  PencilSketch,
+  Diabetic,
+  HospitalManagement,
+
 } from "../assets";
 
 export const navLinks = [
@@ -38,133 +40,101 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
   { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "SQL", icon: SQL },
+  { title: "Power BI", icon: PowerBi },
+  { title: ".net", icon: dotnet },
 ];
 
 export const technologies = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
+  { name: "Snowflake", icon: Snowflake },
+  { name: "ETL", icon: ETL },
+  { name: "Tableau", icon: Tableau },
+  { name: "R", icon: R },
+  { name: "SAAS", icon: SAAS },
   { name: "Rect JS", icon: reactjs },
-  { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
+  { name: "C#", icon: CSharp },
   { name: "git", icon: git },
 ];
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "Software Developer",
+    company_name: "Soti | Kerala | India",
+    icon: Soti,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "July 2023 - July 2024",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Designed and deployed RESTful APIs with custom branding and accessibility features, improving UX.",
+      "Enhanced API efficiency, reducing downtime by 40% and optimizing load performance.",
+      "Developed scalable, security-compliant backend solutions and improved front-end accessibility.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "Salesforce Developer Intern",
+    company_name: "Salesforce | Remote",
+    icon: Salesforce,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "July 2022 - Sep 2022",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
-    ],
-  },
-  {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
-    points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Developed Salesforce Apex classes, triggers, and Visualforce pages for automation.",
+      "Integrated Salesforce with external APIs, reducing manual data entry errors by 30%.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Credit Card Fraud Detection Dashboard",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Developed a fraud detection dashboard with SQL-based ETL for efficient preprocessing and ML classifiers to enhance accuracy.",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "SQL", color: "green-text-gradient" },
+      { name: "Power BI", color: "pink-text-gradient" },
+      { name: "ML Models", color: "blue-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: CreditCard,
+    source_code_link: "https://github.com/panitakanaguduru/CreditCardFraudDetection",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Image Filter and Gif Generation",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
-    tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
-    ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
-  },
-  {
-    name: "Mental Health Fitness Tracker",
-    description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
-    tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
-    image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
+      "Convert an input image to a pencil sketch and gif using OpenCV and Matplotlib libraries.",
     tags: [
       { name: "OpenCV", color: "blue-text-gradient" },
       { name: "Matplotlib", color: "green-text-gradient" },
       { name: "Python", color: "pink-text-gradient" },
     ],
 
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    image: PencilSketch,
+    source_code_link: "https://github.com/panitakanaguduru/Image-Filter-GIF-Generator",
+  },
+  {
+    name: "Diabetic Risk Prediction Models",
+    description:
+      "ML model that utilizes regression techniques to provide insights into Diabetic and make predictions based on the available data.",
+    tags: [
+      { name: "Machine Learning", color: "blue-text-gradient" },
+      { name: "Jupyter Notebook", color: "green-text-gradient" },
+      { name: "Regression Algorithms", color: "pink-text-gradient" },
+    ],
+    image: Diabetic,
+  },
+  {
+    name: "Hospital Management System",
+    description:
+      "Developed modules for patient registration, doctor scheduling, and appointments with real-time tracking to reduce conflicts.",
+    tags: [
+      { name: "Angular", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "MySql", color: "pink-text-gradient" },
+      { name: "JWT", color: "blue-text-gradient" },
+    ],
+    image: HospitalManagement,
   },
 ];
