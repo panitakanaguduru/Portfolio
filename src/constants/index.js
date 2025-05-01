@@ -1,6 +1,7 @@
 import {
   Salesforce,
   Soti,
+  UCF,
   SQL,
   PowerBi,
   dotnet,
@@ -63,6 +64,18 @@ export const technologies = [
 
 export const experiences = [
   {
+    title: "Database Administrator (Migration Project)",
+    company_name: "UCF CARD Services (PALS)",
+    icon: UCF,
+    iconBg: "#000000",
+    date: "Apr 2025 – May 2025",
+    points: [
+      "Initiated documentation for migration from FileMaker Pro to Salesforce CRM, including data structure analysis and field mapping plan.",
+      "Collaborated with the President of PALS to align Salesforce CRM setup with CARD’s automation and reporting goals."
+    ],
+  },  
+  
+  {
     title: "Software Developer",
     company_name: "Soti | Kerala | India",
     icon: Soti,
@@ -124,6 +137,7 @@ export const projects = [
       { name: "Regression Algorithms", color: "pink-text-gradient" },
     ],
     image: Diabetic,
+    source_code_link: "https://github.com/panitakanaguduru/Diabetes",
   },
   {
     name: "Hospital Management System",
@@ -136,5 +150,6 @@ export const projects = [
       { name: "JWT", color: "blue-text-gradient" },
     ],
     image: HospitalManagement,
+    source_code_link: "https://github.com/panitakanaguduru/Hospital-Management",
   },
 ];

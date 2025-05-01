@@ -1,6 +1,7 @@
 // Import company logos
 import Salesforce from "./company/Salesforce-logo.webp";
 import Soti from "./company/soti logo.png";
+import UCF from "./company/ucf logo.png"
 
 
 // Import tech stack images
@@ -38,6 +39,7 @@ import close from "./close.svg";
 export {
   Salesforce,
   Soti,
+  UCF,
   python,
   SQL,
   PowerBi,

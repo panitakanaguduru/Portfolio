@@ -1,0 +1,113 @@
+{
+  "hash": "fdd5fe16",
+  "browserHash": "d49ab998",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "0e07db75",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "bbfbd2b3",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "08ccdd6e",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "aedae450",
+      "needsInterop": false
+    },
+    "react-tilt": {
+      "src": "../../node_modules/react-tilt/dist/index.js",
+      "file": "react-tilt.js",
+      "fileHash": "6135b9a8",
+      "needsInterop": false
+    },
+    "typewriter-effect": {
+      "src": "../../node_modules/typewriter-effect/dist/react.js",
+      "file": "typewriter-effect.js",
+      "fileHash": "d97987df",
+      "needsInterop": true
+    },
+    "react-vertical-timeline-component": {
+      "src": "../../node_modules/react-vertical-timeline-component/dist-es6/index.js",
+      "file": "react-vertical-timeline-component.js",
+      "fileHash": "78fe1166",
+      "needsInterop": true
+    },
+    "@emailjs/browser": {
+      "src": "../../node_modules/@emailjs/browser/es/index.js",
+      "file": "@emailjs_browser.js",
+      "fileHash": "9b5a2321",
+      "needsInterop": false
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "cfee2c90",
+      "needsInterop": false
+    },
+    "@react-three/drei": {
+      "src": "../../node_modules/@react-three/drei/index.js",
+      "file": "@react-three_drei.js",
+      "fileHash": "cde9f68e",
+      "needsInterop": false
+    },
+    "three/addons/loaders/DRACOLoader": {
+      "src": "../../node_modules/three/examples/jsm/loaders/DRACOLoader.js",
+      "file": "three_addons_loaders_DRACOLoader.js",
+      "fileHash": "4d31f62f",
+      "needsInterop": false
+    },
+    "maath/random/dist/maath-random.esm": {
+      "src": "../../node_modules/maath/random/dist/maath-random.esm.js",
+      "file": "maath_random_dist_maath-random__esm.js",
+      "fileHash": "79f5566f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RDU7P64Z": {
+      "file": "chunk-RDU7P64Z.js"
+    },
+    "chunk-M4GWAPPD": {
+      "file": "chunk-M4GWAPPD.js"
+    },
+    "chunk-33PDENMW": {
+      "file": "chunk-33PDENMW.js"
+    },
+    "hls-OYCXMHRJ": {
+      "file": "hls-OYCXMHRJ.js"
+    },
+    "chunk-VFQ7UCF3": {
+      "file": "chunk-VFQ7UCF3.js"
+    },
+    "vision_bundle-QVF3NG5N": {
+      "file": "vision_bundle-QVF3NG5N.js"
+    },
+    "chunk-JDRFKTID": {
+      "file": "chunk-JDRFKTID.js"
+    },
+    "chunk-XUZCVR5P": {
+      "file": "chunk-XUZCVR5P.js"
+    },
+    "chunk-SY2AVCVO": {
+      "file": "chunk-SY2AVCVO.js"
+    },
+    "chunk-N76NJWSV": {
+      "file": "chunk-N76NJWSV.js"
+    },
+    "chunk-ROME4SDB": {
+      "file": "chunk-ROME4SDB.js"
+    }
+  }
+}
