@@ -9,9 +9,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`;
-    window.open(resumeUrl, '_blank');
-  };  
+    const resumeUrl = '/KPV.pdf';
+    window.open(resumeUrl);
+  };
 
   useEffect(() => {
     if (toggle) {
