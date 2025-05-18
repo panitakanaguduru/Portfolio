@@ -2,6 +2,7 @@
 import Salesforce from "./company/Salesforce-logo.webp";
 import Soti from "./company/soti logo.png";
 import UCF from "./company/ucf logo.png"
+import projectbest from "./company/projectbest.jpg"
 
 
 // Import tech stack images
@@ -40,6 +41,7 @@ export {
   Salesforce,
   Soti,
   UCF,
+  projectbest,
   python,
   SQL,
   PowerBi,

@@ -2,6 +2,7 @@ import {
   Salesforce,
   Soti,
   UCF,
+  projectbest,
   SQL,
   PowerBi,
   dotnet,
@@ -64,6 +65,17 @@ export const technologies = [
 
 export const experiences = [
   {
+    title: "Academic Coach & Technical Contributor",
+    company_name: "Project BEST | UCF",
+    icon: projectbest,
+    iconBg: "#000000",
+    date: "May 2025 – Present",
+    points: [
+      "Redesigned the Project BEST website using WordPress, Gutenberg blocks, Bootstrap, and responsive design.",
+      "Supported students with academic coaching and study strategies to enhance performance and retention."
+    ],
+  },
+  {
     title: "Database Administrator (Migration Project)",
     company_name: "UCF CARD Services (PALS)",
     icon: UCF,
@@ -82,9 +94,9 @@ export const experiences = [
     iconBg: "#161329",
     date: "July 2023 - July 2024",
     points: [
-      "Designed and deployed RESTful APIs with custom branding and accessibility features, improving UX.",
-      "Enhanced API efficiency, reducing downtime by 40% and optimizing load performance.",
-      "Developed scalable, security-compliant backend solutions and improved front-end accessibility.",
+      "Worked on accessibility enhancement tasks to ensure compliance with usability standards and improve user experience across across key modules",
+      "Implemented custom branding support by building APIs and backend logic to define and store default and user-defined button styles for the company’s web-based products.",
+      "Built backend logic to support certificate renewal configurations with a 100-year validity period, ensuring long-term platform stability and uninterrupted service.",
     ],
   },
   {

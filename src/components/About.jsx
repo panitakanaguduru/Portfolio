@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm Master’s student in Statistics & Data Science at UCF, obsessed with turning data into stunning insights! 📊✨ Power BI, SQL, Tableau, SAS, Excel—name it, I rock it. 🔥 Also dabbled in .NET at SOTI, crafting sleek web solutions. Now diving into Generative AI to push boundaries. Let’s make data magic happen! 🚀
+        🎯 I'm a data-driven dynamo blending analytics with engineering magic! A Master’s student in Statistics & Data Science at UCF, I wrangle raw data into jaw-dropping dashboards and power-packed predictions using Power BI, Python, SQL, and Azure. Whether it’s fraud detection, machine learning, or automating backend flows with .NET—if it’s messy, I make it meaningful. ⚙️📈 Let’s turn chaos into clarity and code into insights. 💥💡
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
