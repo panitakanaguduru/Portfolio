@@ -12,6 +12,7 @@ import PowerBi from "./tech-stack/powerbi logo.avif";
 import dotnet from "./tech-stack/Net-Framework-Logo.jpg";
 
 // Import project images
+import RSS from "./projects/RSS.jpeg"
 import CreditCard from "./projects/Dashboard.jpeg";
 import PencilSketch from "./projects/Pencil Sketch and gif.jpeg";
 import Diabetic from "./projects/Diabetic.jpeg";
@@ -59,6 +60,7 @@ export {
   Snowflake,
   R,
   Tableau,
+  RSS,
   CreditCard,
   PencilSketch,
   Diabetic,

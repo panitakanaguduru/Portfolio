@@ -19,6 +19,7 @@ import {
   Snowflake,
   R,
   Tableau,
+  RSS,
   CreditCard,
   PencilSketch,
   Diabetic,
@@ -114,6 +115,20 @@ export const experiences = [
 
 export const projects = [
   {
+    name: "Intelligent Resume Screening System",
+    description:
+      "Built an end-to-end ML pipeline to rank resumes by job fit using TF-IDF and skill scores. Deployed a Streamlit app with resume preview, sliders, and CSV/PDF downloads.",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "NLP", color: "green-text-gradient" },
+      { name: "Streamlit", color: "pink-text-gradient" },
+      { name: "Machine Learning", color: "blue-text-gradient" },
+      { name: " Tableau", color: "blue-text-gradient" }
+    ],
+    image: CreditCard,
+    source_code_link: "https://github.com/panitakanaguduru/resume_screening_system",
+  },
+  {
     name: "Credit Card Fraud Detection Dashboard",
     description:
       "Developed a fraud detection dashboard with SQL-based ETL for efficient preprocessing and ML classifiers to enhance accuracy.",
@@ -123,7 +138,7 @@ export const projects = [
       { name: "Power BI", color: "pink-text-gradient" },
       { name: "ML Models", color: "blue-text-gradient" },
     ],
-    image: CreditCard,
+    image: RSS,
     source_code_link: "https://github.com/panitakanaguduru/CreditCardFraudDetection",
   },
   {
