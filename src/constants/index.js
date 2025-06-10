@@ -125,7 +125,7 @@ export const projects = [
       { name: "Machine Learning", color: "blue-text-gradient" },
       { name: " Tableau", color: "blue-text-gradient" }
     ],
-    image: CreditCard,
+    image: RSS,
     source_code_link: "https://github.com/panitakanaguduru/resume_screening_system",
   },
   {
@@ -138,7 +138,7 @@ export const projects = [
       { name: "Power BI", color: "pink-text-gradient" },
       { name: "ML Models", color: "blue-text-gradient" },
     ],
-    image: RSS,
+    image: CreditCard,
     source_code_link: "https://github.com/panitakanaguduru/CreditCardFraudDetection",
   },
   {
